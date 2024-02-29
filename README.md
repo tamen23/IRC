@@ -52,6 +52,7 @@ npm run dev
 ```
 
 ## Authors 🕵️
+- Paternus DJEUKOUA TAMEN
 - Alexandre CALONNE
 - Samir Sergio Boladji MIGUEL
-- Paternus DJEUKOUA TAMEN
+
