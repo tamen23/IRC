@@ -1,0 +1,37 @@
+.channel-room__container {
+  margin-left: 280px;
+
+  .messages-container {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    overflow-y: scroll;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+      background-color: transparent;
+      border: 1px solid #d6d6d6;
+      border-radius: 7px;
+      width: 95%;
+      height: 35px;
+      color: #fff;
+      padding-left: 5px;
+    }
+
+    button {
+      font-size: 19px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}

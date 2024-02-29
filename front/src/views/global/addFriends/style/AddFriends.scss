@@ -1,0 +1,45 @@
+.addfriends-container {
+  margin-left: 300px;
+
+  input {
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 1px solid #D6D6D6;
+    border-radius: 7px;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    padding-left: 5px;
+  }
+
+  .results-container {
+    margin-top: 1.5rem;
+
+    .result {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #D6D6D6;
+      margin-bottom: 1rem;
+      width: 100%;
+      height: 40px;
+      padding: 5px;
+      background-color: #D6D6D6;
+      color: black;
+      border-radius: 7px;
+
+      button {
+        padding: 4px;
+        background-color: #B5FC84;
+        border: none;
+        border-radius: 5px;
+        color: black;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

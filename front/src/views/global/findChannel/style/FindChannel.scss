@@ -1,0 +1,28 @@
+.find-channels__container {
+  margin-left: 260px;
+
+  .channels {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+
+    .channel-card {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      width: 250px;
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+      padding: 18px;
+      color: #000;
+      border-radius: 7px;
+
+      button {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
